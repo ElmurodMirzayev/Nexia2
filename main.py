@@ -1,3 +1,4 @@
+#opencv-python==4.13.0.92
 import streamlit as st
 from ultralytics import YOLO
 from ultralytics.utils.plotting import colors
