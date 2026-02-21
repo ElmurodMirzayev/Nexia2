@@ -46,8 +46,8 @@ if uploaded_file is not None:
                 h, w = result_image.shape[:2]
 
                 # Bazaviy o‘lcham
-                base_w = 694
-                base_h = 400
+                base_w = 800
+                base_h = 600
 
                 scale_w = w / base_w
                 scale_h = h / base_h
@@ -58,7 +58,7 @@ if uploaded_file is not None:
 
                 font_scale = 1.4 * scale
                 thickness = max(1, int(4 * scale))
-                y_offset = int(20 * scale)
+                y_offset = int(10 * scale)
 
                 for box in boxes:
                     cls_id = int(box.cls[0])
