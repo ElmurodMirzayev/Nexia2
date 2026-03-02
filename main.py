@@ -12,7 +12,7 @@ page = st.sidebar.radio("Sahifani tanlang", ["Detect Model", "Segmentation Model
 
 # Modellarni yuklash
 model_detect = YOLO("buzilgan_detalniy_detect/train1/weights/best.pt")
-model_segment = YOLO("small_model_seg_180ta_datalik_Nexia2damage/train1/weights/best.pt")
+model_segment = YOLO("small_model_250ta_datalik_Nexia2damage/train1/weights/best.pt")
 
 uploaded_file = st.file_uploader("Rasm yuklang", type=["jpg", "png", "jpeg"])
 
